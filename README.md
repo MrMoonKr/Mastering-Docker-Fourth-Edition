@@ -1,7 +1,32 @@
-
-
-
 # Mastering Docker – Fourth Edition 
+
+- 도커 ( docker )
+- 도커 컴포즈 ( docker-compose )
+
+## 환경 구성
+
+- WSL ( Windows Subsystem for Linux )
+  ```
+  $ wsl --version
+  $ wsl --install
+  $ wsl --set-version 2 // if not using WSL 2
+  $ wsl --list --online
+  $ wsl --install -d Ubuntu-20.04
+    - after reboot, installation continues
+    - set id and password
+  ```
+- Docker Desktop
+  + https://www.docker.com/products/docker-desktop
+  ```
+  $ docker --version
+  $ docker-compose --version
+  $ wsl --list
+  $ docker --help
+  ```
+- VS Code
+
+## 책 소개
+
 
 <a href="https://www.packtpub.com/product/mastering-docker-fourth-edition/9781839216572?utm_source=github&utm_medium=repository&utm_campaign=9781839216572"><img src="https://static.packt-cdn.com/products/9781839216572/cover/smaller" alt="Mastering Docker – Fourth Edition" height="256px" align="right"></a>
 
